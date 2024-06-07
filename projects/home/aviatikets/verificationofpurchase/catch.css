@@ -1,0 +1,47 @@
+.erorr{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 40px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sotitle-erorr{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.conteinr{
+    background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(255, 255, 255));
+    height: 60px;
+}
+.question-mark__bacraunt{
+    display: flex;
+    gap: 40px;
+    margin-left: 150vh;
+    margin-top: 1px;
+    position: relative;
+    bottom: 50px;
+}
+.question-mark__bacraunt > img:hover {
+    background-color: rgb(169, 172, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button{
+    width: 70px;
+    border: 2px solid #2883fb;
+    background-color: aliceblue;
+    color: #2883fb;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button:hover{
+    border: 2px solid #fefefe;
+    background-color: #2883fb;
+    color: #a9c6ec;
+}
+.result{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}

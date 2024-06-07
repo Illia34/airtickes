@@ -1,0 +1,167 @@
+
+body  {
+  background-image: url("/projects/home/aviatikets/scr/Без\ имени-1.jpg");
+  background-color: #b8b6b6;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+form{
+  height: 520px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.13);
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 40px rgba(8,7,16,0.6);
+  padding: 50px 35px;
+}
+.form {
+  height: 520px;
+  width: 400px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  margin-top: 350px;
+  left: 50%;
+  padding: 50px 35px;
+  
+}
+.form > button{
+  font-family: 'Poppins',sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.erorr{
+  color: #ff0000;
+  font-size: 30px;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+  margin-top: 60px;
+  width: 100%;
+  background-color: #006eff;
+  color: #ffffff;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #2883fb;
+  margin: 0;
+  padding: 0;
+  height: 300px;
+  transition: all 0.4s;
+}
+h1, p{
+  color: aliceblue;
+}
+.constiner{
+  background-color: aliceblue;
+  height: 60px;
+}
+.question-mark__bacraunt{
+  display: flex;
+  gap: 40px;
+  margin-left: 150vh;
+  margin-top: 1px;
+  position: relative;
+  bottom: 50px;
+}
+.question-mark__bacraunt > img:hover {
+  background-color: rgb(169, 172, 174);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.question-mark__bacraunt button{
+  width: 70px;
+  border: 2px solid #2883fb;
+  background-color: aliceblue;
+  color: #2883fb;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.question-mark__bacraunt button:hover{
+  border: 2px solid #fefefe;
+  background-color: #2883fb;
+  color: #a9c6ec;
+}
+.erorr > p{
+  color: #ff0000;
+  font-size: 15px;
+}

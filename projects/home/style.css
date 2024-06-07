@@ -1,0 +1,264 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgb(34, 0, 255) , rgb(0, 195, 255));
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    transition: all 0.4s;
+}
+h1, p{
+    color: aliceblue;
+}
+.conteiner{
+    background-color: aliceblue;
+    height: 60px;
+}
+.question-mark__bacraunt{
+    display: flex;
+    gap: 40px;
+    margin-left: 150vh;
+    margin-top: 1px;
+    position: relative;
+    bottom: 50px;
+}
+.question-mark__bacraunt > img:hover {
+    background-color: rgb(169, 172, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button{
+    width: 70px;
+    border: 2px solid #2883fb;
+    background-color: aliceblue;
+    color: #2883fb;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button:hover{
+    border: 2px solid #fefefe;
+    background-color: #2883fb;
+    color: #a9c6ec;
+}
+.title{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 800;
+}
+h3{
+    font-size: 25px;
+}
+.input{
+    text-align: center;
+}
+
+
+.box-input {
+    position: relative;
+}
+  
+.input {
+    background-color: #ffffff;
+    height: 40px;
+    padding: 0 19px 0 10px;
+    font-size: 1.1em;
+    position: relative;
+    width: 70vh;
+    border: none;
+    color: rgb(25, 25, 25);
+    outline: 0;
+    overflow: hidden;
+    margin-left: 590px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+  
+
+.img-title-logo{
+    margin-left: 120px;
+}
+.box-1{
+    background-color: #fefefe;
+    margin-top: 40px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.box-1:hover{
+    box-shadow: 5px 4px 6px 4px #0168de;
+}
+.opsion{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.img-title-logo-language{
+    display: flex;
+}
+.box-2{
+    background-color: #fefefe;
+    margin-top: 40px;
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.box-2:hover{
+    box-shadow: 5px 4px 6px 4px #0168de;
+}
+.box-2 > img{
+    position: relative;
+    left: 20px;
+}
+.box-2 > a{
+    position: relative;
+    right: 30px;
+    top: 15px;
+    text-decoration: none;
+    color: black;
+}
+.box-1 > img{
+    position: relative;
+    left: 20px;
+}
+.box-1 > a{
+    position: relative;
+    right: 30px;
+    top: 15px;
+    text-decoration: none;
+    color: black;
+}
+.page-2{
+    background-color: #d9d9d9;
+    margin-top: 300px;
+    height: 1100px;
+}
+.constiner{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.opsion__navigation-box{
+    background-image: linear-gradient(to right, rgb(255, 123, 0) , yellow);
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 20px;
+}
+.opsion__navigation-box > p{
+    color: black;
+    margin-left: 15px;
+}
+.title-of-opsion__navigation-box{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.opsion__navigation-box > img{
+    position: relative;
+    bottom: 190px;
+    left: 400px;
+}
+.button-Kiev{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: #000000;
+    box-shadow: 5px 4px 6px 4px #f5a801;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button-Kiev:hover{
+    transform: translateY(-4px);
+}
+.box-1-page-2-a > img{
+    margin-top: 250px;
+}
+.title-pay{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.box-1-page-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+    grid-row: 1fr 30px 2fr;
+    justify-content: center;
+}
+.box-1-page-2-a {
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: all 10s;
+}
+  
+.text-box-1-page-2-a > p {
+    position: absolute;
+    top: 75%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 6 00px;
+    left: 35%;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
+}
+
+.text-box-1-page-2-a-2{
+    position: absolute;
+    top: 90%;
+    color: #000000;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+.text-box-1-page-2-a-3{
+    position: absolute;
+    top: 95%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.box-1-page-2-a > img{
+    border-radius: 10px;
+}
+
+.card{
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: all 10s;
+}
+.finish{
+    text-align: center;
+    margin-top: 100px;
+}
+.finish > p{
+    color: #747474;
+}

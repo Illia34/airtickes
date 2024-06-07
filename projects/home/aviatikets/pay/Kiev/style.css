@@ -1,0 +1,127 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right,rgb(0, 242, 255), rgb(0, 94, 255));
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    transition: all 0.4s;
+}
+h1, p{
+    color: aliceblue;
+}
+.container{
+    background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(255, 255, 255));
+    height: 60px;
+}
+.opsion-tikets{
+    margin-left: 50px;
+    display: flex;
+    margin-top: 50px;
+    height: 60px;
+    justify-content: center;
+    width: 300px;
+    background-color: #fefefe;
+    color: black;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.opsion-tikets > p{
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+  
+}
+.page-navigation{
+    background-color: #fefefe;
+    height: 200px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 15px 2px #c2ccfd;
+}
+.Title > p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+}
+.box-1-input > input{
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #e9e6e6;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.box-2-input-a > button{
+    height: 50px;
+    margin-left: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.page-tikets{
+    background-color: #fffefe;
+    border-radius: 10px;
+    box-shadow: 6px 2px 15px 2px #5b76ff;
+}
+.box-time-1{
+    display: flex;
+    gap: 70px;
+}
+.text__box-1 > p{
+    color: #605e5e;
+}
+
+.button-box-1-1-button{
+    width: 100px;
+    background-color: #1eff00fd;
+    color: #474747;
+    border: none;
+    height: 40px;
+    margin-left: 45vh;
+    position: absolute;
+    cursor: pointer;
+}
+.page-tikets{
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.page-tikets:hover{
+    box-shadow: 6px 2px 15px 2px #2a4eff;
+}
+.img > img{
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.text__box-1 > p{
+    margin-left: 50px;
+}
+progress{
+    margin-left: 50px;
+}
+.page{
+    display: flex;
+}
+.box-time-1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.page-tikets-2{
+    margin-left: 900px;
+    background-color: #fffefe;
+    width: 600px;
+    height: 230px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 15px 2px #5b76ff;
+}
+.page-tikets-2:hover{
+    box-shadow: 6px 2px 15px 2px #2a4eff;
+}

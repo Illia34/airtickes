@@ -1,0 +1,114 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right, rgb(34, 0, 255) , rgb(0, 195, 255));
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    transition: all 0.4s;
+}
+h1, p{
+    color: aliceblue;
+}
+.container{
+    background-image: linear-gradient(to right, rgb(34, 0, 255) , rgb(0, 195, 255));
+    height: 60px;
+}
+.question-mark__bacraunt{
+    display: flex;
+    gap: 40px;
+    margin-left: 150vh;
+    margin-top: 1px;
+    position: relative;
+    bottom: 50px;
+}
+.question-mark__bacraunt > img:hover {
+    background-color: rgb(169, 172, 174);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button{
+    width: 70px;
+    border: 2px solid #2883fb;
+    background-color: aliceblue;
+    color: #2883fb;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.question-mark__bacraunt button:hover{
+    border: 2px solid #fefefe;
+    background-color: #2883fb;
+    color: #a9c6ec;
+}
+.title{
+    text-align: center;
+    margin-top: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.h1{
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 800;
+}
+h3{
+    font-size: 25px;
+}
+.input{
+    text-align: center;
+}
+
+
+.box-input {
+    position: relative;
+}
+  
+.input {
+    background-color: #ffffff;
+    height: 40px;
+    padding: 0 19px 0 10px;
+    font-size: 1.1em;
+    position: relative;
+    width: 70vh;
+    border: none;
+    color: rgb(25, 25, 25);
+    outline: 0;
+    overflow: hidden;
+    margin-left: 590px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.page-help{
+    background-color: #fff3f3;
+    margin-top: 50px;
+    height: 700px;
+}
+.title-box-1__help > p{
+    color: #000000;
+    font-size: 20px;
+}
+.opsion-help > p{
+    color: #000000;
+    cursor: pointer;
+}
+.box-help{
+    display: flex;
+    column-gap: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+.dowpand__app{
+    margin-top: 50px;
+    text-align: center;
+}
+.dowpand__app > img{
+    transition: all 0.5s;
+}
+.dowpand__app > img:hover{
+    width: 50px;
+    height: 50px;
+    background-color: #414141;
+    cursor: pointer;
+    border-radius: 10px;
+}
