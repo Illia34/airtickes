@@ -6,14 +6,6 @@ function sendDataToApi(userData) {
         },
         body: JSON.stringify(userData),
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log(data); 
-        
-    })
-    .catch(error => {
-        console.error('Error:', error);
-    });
 }
 
 
@@ -48,10 +40,7 @@ document.querySelector('#btn').addEventListener('click', function() {
         return true;
     }
 
-    function myFunction() {
-        window.open("https://www.w3schools.com");
-    }
-    window.open("http://127.0.0.1:5500/projects/home/");
+    window.open("http://127.0.0.1:5500/projects/home/index.html");
 });
 
 

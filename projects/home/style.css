@@ -118,9 +118,10 @@ h3{
 .box-2:hover{
     box-shadow: 5px 4px 6px 4px #0168de;
 }
-.box-2 > img{
+.img-2{
     position: relative;
-    left: 20px;
+    left: 47px;
+    bottom: 15px;
 }
 .box-2 > a{
     position: relative;

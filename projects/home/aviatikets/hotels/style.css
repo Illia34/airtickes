@@ -1,0 +1,89 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d9d9d9;
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    transition: all 0.4s;
+}
+h1, p{
+    color: aliceblue;
+}
+.container{
+    background-color: aliceblue;
+    height: 60px;
+}
+.box-1-page-2-a > img{
+    margin-top: 100px;
+}
+.title-pay{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.box-1-page-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+    grid-row: 1fr 30px 2fr;
+    justify-content: center;
+}
+.box-1-page-2-a {
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: all 10s;
+}
+  
+.text-box-1-page-2-a > p {
+    position: absolute;
+    top: 75%;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 6 00px;
+    left: 35%;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: 800;
+    transform: translate(-50%, -50%);
+}
+
+.text-box-1-page-2-a-2{
+    position: absolute;
+    top: 90%;
+    color: #000000;
+    left: 20%;
+    transform: translate(-50%, -50%);
+
+}
+.text-box-1-page-2-a-3{
+    position: absolute;
+    top: 93%;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.box-1-page-2-a > img{
+    border-radius: 10px;
+}
+
+.card{
+    position: relative;
+    text-align: center;
+    color: white;
+    transition: all 10s;
+}
+.finish{
+    text-align: center;
+    margin-top: 50px;
+}
+.finish > p{
+    color: #747474;
+}

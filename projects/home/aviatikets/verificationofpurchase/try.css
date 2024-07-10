@@ -75,9 +75,13 @@ input{
     height: 50px;
     border: none;
     background-color: #00ff11;
-    border-radius: 40px;
+    border-radius: 10px;
     margin-left: 40px;
     cursor: pointer;
+}
+#emagleEr > p{
+    color: #ff0000;
+    font-size: 20px;
 }
 .window{
     text-align: center;
